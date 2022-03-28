@@ -1,0 +1,35 @@
+.main{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+
+.price{
+margin-left: 20px;
+}
+
+
+.up{
+position: relative;
+display: flex;
+align-items: center;
+margin: 0 auto;
+position: fixed;
+top: 590px;
+left: 1400px;
+background-color: rgba(43, 114, 96, 0.61);
+width: 50px;
+height: 50px;
+border-radius: 50%;
+}
+
+.link__up{
+    color: whitesmoke;
+}
+
+.link__up:hover{
+    color: rgb(216, 216, 216);
+}

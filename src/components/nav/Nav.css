@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgba(161, 161, 161, 0.61);
+}
+
+.header__nav_list{
+    display: flex;
+    
+    list-style-type: none;
+}
+
+.header__nav_sign_up{
+    display: flex;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: black;
+    transition: linear 0.2s;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+a:hover{
+    color: rgb(2, 102, 89);
+    transition: linear 0.2s;
+}
